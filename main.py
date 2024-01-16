@@ -25,7 +25,7 @@ Id = 1191312715801698395
 @client.event
 async def on_ready():
     voice_channel = client.get_channel(Id) 
-   await client.change_presence(activity = discord.Streaming(name = " Gem on Top ", url = "https://twitch.tv/gemop"))
+   await client.change_presence(activity = discord.Activity(type=discord.ActivityType.streaming, name = " Gem on Top ", url = "https://twitch.tv/gemop"))
    await voice_channel.connect()
   
     print('Logged in as {0.user}'.format(client))
