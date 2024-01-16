@@ -25,7 +25,7 @@ Id = 1191312715801698395
 @client.event
 async def on_ready():
     voice_channel = client.get_channel(Id) 
-    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="Lofi"))
+    await client.change_presence(activity=discord.Activity(type=discord.ActivityType.listening, name="Gem on Top"))
     await voice_channel.connect()
   
     print('Logged in as {0.user}'.format(client))
