@@ -19,7 +19,7 @@ print("""\
 time.sleep(0.5)
 client = discord.Client(intents=discord.Intents.default())
 Token = os.getenv("TOKEN")
-Id = 1197967080696320000
+Id = 1198119065391218800
 
 
 @client.event
