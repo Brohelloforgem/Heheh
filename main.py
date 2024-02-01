@@ -18,7 +18,7 @@ print("""\
 **Version: 1.0.0**""")
 time.sleep(0.5)
 client = discord.Client(intents=discord.Intents.default())
-Token = os.getenv("TOKEN")
+Token = Nzc4MTQ4ODkxNjUyMjU5ODYw.G5iMdX.2xSxE7xTNXce36obNNxRe3l9OwloyEX0kdVNB0
 Id = 1200032305067077713
 
 
