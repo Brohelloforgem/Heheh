@@ -1,3 +1,8 @@
 discord.py==1.7.3
 PyNaCl
 Flask
+tkinter
+pyaudio
+wave
+time
+threading 
