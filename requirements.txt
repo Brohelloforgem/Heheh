@@ -3,5 +3,4 @@ PyNaCl
 Flask
 pyaudio
 wave
-time
 threading 
